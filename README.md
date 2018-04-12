@@ -13,7 +13,7 @@ For 3 fingers, Pin number 40 in board will be high
 Both pin Low when fingers closed
 
 # Dependencies
-OpenCV     [Linux/Rpi Install: sudo apt-get libopencv-dev ]
+OpenCV     [Linux/Rpi Install: sudo apt-get libopencv-dev ]  </br>
 WiringPi   [Installation: http://wiringpi.com/download-and-install/ ]
 
 # Compiling the code
