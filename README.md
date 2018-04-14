@@ -17,7 +17,7 @@ OpenCV     [Linux/Rpi Install: sudo apt-get libopencv-dev ]  </br>
 WiringPi   [Installation: http://wiringpi.com/download-and-install/ ]
 
 # Compiling the code
-g++ GestureRecognition_Rpi.cpp -o gesture ``pkg-config --libs opencv`` -std=c++11
+g++ GestureRecognition_Rpi.cpp -o gesture \`pkg-config --libs opencv\` -std=c++11
 
 # Running the code
 ./gesture
