@@ -19,5 +19,7 @@ WiringPi   [Installation: http://wiringpi.com/download-and-install/ ]
 # Compiling the code
 g++ GestureRecognition_Rpi.cpp -o gesture \`pkg-config --libs opencv\` -std=c++11 -lwiringPi
 
+(ignore -lwiringPi if you are compiling on a PC )
+
 # Running the code
 ./gesture
